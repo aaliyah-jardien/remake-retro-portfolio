@@ -1,0 +1,43 @@
+* {
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: #ffffff;
+
+    text-decoration: none;
+}
+
+body {
+    background-image: url(/images/Aaliyah-wallpaper.jpeg);
+    background-size: cover;
+    background-repeat: none;
+    /* background-position: url(/images/Aaliyah-wallpaper.jpeg); */
+
+}
+
+/* NAV BAR STYLING */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #990073;
+    width: 8%;
+    height: 100%;
+    /* position: fixed; */
+}
+
+li a {
+    /* display: incline-block; */
+}
+.home-picture {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    height: 25%;
+    width: 25%;
+    border: 10px solid #990073;
+    border-radius: 50%;
+}
